@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.pixelated {
+    background:
+        radial-gradient(
+            khaki 1px,
+            transparent 0,
+            transparent 100%
+        ),
+        radial-gradient(
+            skyblue 1px,
+            transparent 0,
+            transparent 100%
+        ),
+        radial-gradient(
+            pink 1px,
+            transparent 0,
+            transparent 100%
+        ), snow;
+    background-blend-mode: multiply;
+    background-size: 10px 10px;
+    background-position: 0 0, 33px 33px, -33px -33px;
+}
+
+.solid {
+    height: 100vh;
+    background-color: yellow;
+    opacity: 30%;
+}
